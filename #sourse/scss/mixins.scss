@@ -1,0 +1,9 @@
+@mixin flexbox(){display: flex;display:-webkit-flex;display: -moz-flex;display: -o-flex;font-size: 0;}
+@mixin objf($size){object-fit: $size;-webkit-object-fit: $size;-moz-object-fit: $size;-o-object-fit: $size;}
+@mixin objp($pos){object-position: $pos;-webkit-object-position: $pos;-moz-object-position: $pos;-o-object-position: $pos;}
+@mixin anim($name,$time,$scenariy,$howmany,$delay) {animation: $name $time $scenariy $howmany $delay;-webkit-animation: $name $time $scenariy $howmany $delay;-moz-animation: $name $time $scenariy $howmany $delay;-o-animation: $name $time $scenariy $howmany $delay}
+@mixin rotate($deg){transform: rotate($deg);-webkit-transform: rotate($deg);-moz-transform: rotate($deg);-o-transform: rotate($deg);}
+@mixin translate($degX, $degY) {transform: translate($degX, $degY);-webkit-transform: translate($degX, $degY);-moz-transform: translate($degX, $degY);-o-transform: translate($degX, $degY);}
+@mixin scale($num){transform: scale($num);-webkit-transform: scale($num);-moz-transform: scale($num);-o-transform: scale($num);}
+@mixin flexboxinline() {display: inline-flex;display:-webkit-inline-flex;display: -moz-inline-flex;display: -o-inline-flex;}
+@mixin transition($all, $time, $scenariy, $delay) {transition: $all $time $scenariy $delay;-webkit-transition: $all $time $scenariy $delay;-moz-transition: $all $time $scenariy $delay;-o-transition: $all $time $scenariy $delay;}
